@@ -1,0 +1,19 @@
+FirstName: Sara
+LastName: Layachi
+MatriculationNumber: 178534
+AcademicYear: 2019-2020
+GitHubUrl: https://github.com/layachisara/dncs-lab
+Subnets:
+  HostsA:
+    RequiredAddresses: 311
+    SubnetAddress: 172.16.0.0
+    SubnetPrefixLength: 255.255.254.0
+  HostsB:
+    RequiredAddresses: 48
+    SubnetAddress: 172.16.3.0
+    SubnetPrefixLength: 255.255.255.192
+  Hub:
+    RequiredAddresses: 175
+    SubnetAddress: 172.16.2.0
+    SubnetPrefixLength: 255.255.255.0
+#
