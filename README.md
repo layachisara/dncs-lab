@@ -109,7 +109,7 @@ Note that we have discarded the approach to allocate to each of our subnet only 
 
 ### Subnets
 
-We decided to use a private pool of IP addresses.: we choose the 172.16.0.0/12 class of IP addresses, since there is no specification in the design requirements about the addresses to be used, but any other private classes can be used.
+We decided to use a private pool of IP addresses: we choose the 172.16.0.0/12 class of IP addresses, since there is no specification in the design requirements about the addresses to be used, but any other private classes can be used.
 
 
 we recap the addressing configuration used:
@@ -392,6 +392,7 @@ Now use `sudo su` With this command you have permissions to execute all the comm
 A useful commands is: `ifconfig` to have some informations about the ethernet interfaces.
 
 - Reachability
+
 Suppose that we are into host-a, via `vagrant ssh host-a`, and we want to ping host-b, and to send a request for "docker.html" of the webserver running on host-2-c:
 
 to ping host-b: `ping 172.16.3.2`
@@ -436,6 +437,7 @@ Commercial support is available at
 </html>
 ```
 the same can be done with all devices, the Network map configured with IP shows all informations needed.
+
 # Authors and acknowledgment
 Layachi Sara and Neri Carlotta.
 
